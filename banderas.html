@@ -1,0 +1,109 @@
+<html>
+<head>
+<meta charset="utf-8">
+	<title>banderas</title>
+	<style>
+		div {
+			/*float: left;*/
+		}
+
+		.banderas {
+			width: 300px;
+			height: 200px;
+			border: 1px solid black;
+			float: left;
+			margin: 0 20px;
+			position: relative;
+		}
+
+		.espana{
+			background-color: red;
+		}
+
+		.espanayel{
+			width: 100%;
+			height: 70px;
+			background-color: yellow;
+			margin: 65px 0;
+		}
+
+		.dina1,
+		.dina3 {
+			width: 90px;
+			height: 90px;
+			background-color: red;
+		}
+
+		.dina2,
+		.dina4 {
+			width: 190px;
+			height: 90px;
+			background-color: red;
+			float: right;
+		}
+
+		.dina3,
+		.dina4 {
+			position: absolute;
+			bottom: 0;
+		}
+
+		.dina4 {
+			right: 0;
+		}
+		.japon{
+			background-color: white;
+		}
+
+		.circulo{
+			width: 80px;
+			height: 80px;
+			-moz-border-radius:50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+			background-color: red;
+			margin: 21% 37%;
+		}
+		.emiratos{
+			background-color: red;
+		}
+		.emiratos_green{
+			width: 200px;
+			height: 60px;
+			background-color: green;
+			margin: 80px;
+			position: absolute;
+			bottom: 100%;
+
+
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="banderas espana">
+		<div class="espanayel"></div>
+	</div>
+
+	<p></p>
+
+	<div class="banderas dinamarca">
+		<div class="dina2"></div>
+		<div class="dina1"></div>
+		<div class="dina4"></div>
+		<div class="dina3"></div>
+	</div>
+	<p></p>
+	<div class="banderas japon">
+		<div class="japon"></div>
+		<div class="circulo"></div>
+	</div>
+
+	<div class="banderas emiratos">
+		<div class="emiratos_green"></div>
+		<div class="emiratos_white"></div>
+		<div class="emiratos_black"></div>
+	</div>
+</body>
+</html>
